@@ -1,0 +1,14 @@
+Open cmd in the selected folder 
+Run this commands : 
+python3 -m venv venv : create new vitural enviroment for setting up neccessary libraries
+venv\Scripts\activate.bat : avtivate enviroment
+pip list : Display packages which is installed in this folder
+C:\Python312\python.exe -m pip install --upgrade pip : The path is the link which store python.exe file
+
+Install Modules:
+    Create requirement.txt 
+    Paste 2 Module name & save  : 
+    requests
+    beautifulsoup4
+Run this commands : 
+ pip install -r requirement.txt : install modules
